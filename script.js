@@ -1,4 +1,4 @@
-let mailEffect = document.querySelector(".name")
+let mailEffect = document.getElementsByClassName("name")[0]
 
 mailEffect.addEventListener('mouseover', (e) => {
     mailEffect.style.cursor = "pointer"
